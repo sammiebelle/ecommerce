@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi tienda</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/dbb99a1d86.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="imagenes/logo.jpg" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="products.html">Products</a>
+                        </li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Contact</a>
+                        </li>
+                        <li>
+                            <a href="account.html">Account</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="imagenes/bolsa.jpg" width="30px" height="30px"></a>
+                <img src="imagenes/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Encuentra tu <br>proxima aventura!</h1>
+                    <p>Maravillosos mundos te estan esperando entre <br>las paginas de estos libros.</p>
+                    <a href="" class="btn">Explorar más &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="imagenes/img1.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--featured categories-->
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="imagenes/cat1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="imagenes/cat2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="imagenes/cat3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--featured products-->
+
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="imagenes/prod1.jpg">
+                <h4>Viaje al Centro de la Tierra</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-o"></i>
+                </div>
+                <p>$250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="imagenes/prod2.jpg">
+                <h4>El arte de ilustrar</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-o"></i>
+                </div>
+                <p>$250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="imagenes/prod3.jpg">
+                <h4>El manuscrito de piedra</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-o"></i>
+                </div>
+                <p>$250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="imagenes/prod4.jpg">
+                <h4>El perturbado del verbo</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-o"></i>
+                </div>
+                <p>$250.00</p>
+            </div>
+        </div>
+        <h2 class="title">Novedades</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="imagenes/prod1.jpg">
+                <h4>Viaje al Centro de la Tierra</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-o"></i>
+                </div>
+                <p>$250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="imagenes/prod2.jpg">
+                <h4>El arte de ilustrar</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-o"></i>
+                </div>
+                <p>$250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="imagenes/prod3.jpg">
+                <h4>El manuscrito de piedra</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-o"></i>
+                </div>
+                <p>$250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="imagenes/prod4.jpg">
+                <h4>El perturbado del verbo</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-o"></i>
+                </div>
+                <p>$250.00</p>
+            </div>
+    </div>
+
+<!--offer-->
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="imagenes/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Disponible exclusivamente en esta tienda</p>
+                    <h1>La nueva kindle</h1>
+                    <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo 
+                        aliquam nemo beatae esse. Lorem ipsum dolor sit amet consectetur 
+                        adipisicing
+                    </small>
+                    <a href="" class="btn">Compra ahora &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Testimonial-->
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et a culpa accusamus doloremque, pariatur dolores.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-o"></i>
+                    </div>
+                    <img src="imagenes/user-1.png">
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et a culpa accusamus doloremque, pariatur dolores.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-o"></i>
+                    </div>
+                    <img src="imagenes/user-3.png">
+                    <h3>Mary Smith</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et a culpa accusamus doloremque, pariatur dolores.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-o"></i>
+                    </div>
+                    <img src="imagenes/user-2.png">
+                    <h3>Mark Johnson</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--brands-->
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="imagenes/cat1.jpg">
+                </div>
+                <div class="col-5">
+                    <img src="imagenes/cat2.jpg">
+                </div>
+                <div class="col-5">
+                    <img src="imagenes/cat3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--footer-->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Descarga nuestra app</h3>
+                    <p>Descargar app para dispositivos Android y ios</p>
+                    <div class="app-logo">
+                        <img src="imagenes/play-store.png">
+                        <img src="imagenes/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="imagenes/logo-white.png">
+                    <p>Nuestro proposito es traer hasta tus manos los mejores titulos a precios accesibles.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Enlaces Utiles</h3>
+                    <ul>
+                        <li>Cupones</li>
+                        <li>Blog</li>
+                        <li>Politica de Devoluciones</li>
+                        <li>Programa de Recompensas</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Siguenos</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Tiktok</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - Sammiebelle</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<!--https://www.toptal.com/designers/htmlarrows/ pagina para el codigo de los iconos-->
